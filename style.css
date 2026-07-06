@@ -1,0 +1,187 @@
+ @font-face {
+        font-family: 'Font';
+        src: url('ShimbashiGothic-Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+        body {
+            margin: 0;
+            background-color:#163c60;
+            font-family: 'Font', sans-serif;
+        }
+
+.youkoso {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    right: 270px; 
+    bottom: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.menu-item {
+    display: block;
+    font-size: 20px;
+    width: 200px;
+    height: 70px; 
+    background-color: #b0aaa1;
+    color: #163c60;
+    text-decoration: none;  /* 拔掉超連結預設的底線 */
+    border-radius: 8px;
+    
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.menu-item:hover {
+    background-color: #927248;
+    color: #b0aaa1;
+}
+
+.news {
+    position: relative;
+    max-width: 900px;
+    margin: 40px auto 10px;
+    background-color: #b0a99f;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    box-sizing: border-box;
+
+    padding-left: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.news-illustration {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    right: 80px; 
+    bottom: 40px;
+}
+
+.rule {
+    position: relative;
+    max-width: 900px;
+    margin: 30px auto 10px;
+    background-color: #b0a99f;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    box-sizing: border-box;
+
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.character {
+    position: relative;
+    max-width: 750px;
+    margin: 40px auto 10px;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-size: 30px;
+    box-sizing: border-box;
+
+}
+
+.naoka {
+    position: absolute;
+    cursor: pointer;
+}
+
+.panel-1 {
+    top: 0%;              /* 距離頂端 5% */
+    left: 0%;            /* 距離左邊 10% */
+    width: 27%;           /* 這個分鏡佔了寬度的 40% */
+    height: 100%;          /* 這個分鏡佔了高度 的 45% */
+}
+
+.panel-2 {
+    top: 0%;
+    left: 27%;
+    width: 24%;
+    height: 100%;
+}
+
+.panel-3 {
+    top: 0%;
+    left: 51%;
+    width: 24%;
+    height: 100%;
+}
+
+.panel-4 {
+    top: 0%;
+    left: 75%;
+    width: 25%;
+    height: 100%;
+}
+
+.shoukai {
+    position: relative;
+    background-color:#beb8af;
+    width: 390px;
+    border-radius: 20px;
+    padding-left: 50px; 
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    margin-left: 530px;
+    line-height: 1.0;
+}
+
+.ongen {
+    position: relative;
+    background-color:#beb8af;
+    width: 390px;
+    border-radius: 20px;
+    padding-left: 50px; 
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    margin-left: 530px;
+    margin-top: 40px;
+    line-height: 1.0;
+}
+
+.download {
+    position: absolute;
+    width: 52px;
+    height: auto;
+    right: 320px; 
+    bottom: 93px;
+}
+
+.play {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    right: 110px; 
+    bottom: 40px;
+}
+
+.play2 {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    right: 160px; 
+    bottom: 40px;
+}
