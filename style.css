@@ -10,6 +10,11 @@
             font-family: 'Font', sans-serif;
         }
 
+.youkoso {
+    max-width: 680px;
+    height: auto;
+}
+
 .menu {
     display: flex;
     justify-content: center;
