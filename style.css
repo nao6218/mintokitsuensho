@@ -322,11 +322,11 @@
         justify-content: center;
         text-align: center;
         gap: 8px;
-        padding: 30px;
+        padding: 15px;
     }
     
     .menu-item {
-        font-size: 8px;
+        font-size: 9px;
         width: 100px;
         height: 40px;   
         padding: 13px;
