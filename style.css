@@ -350,8 +350,12 @@
         text-align: center;
     }
 
+    .naoka {
+        max-width: 380px;
+    }
+
     .naoka_1 {
-        width: 410px;
+        width: 370px;
         height: auto;
     }
 
