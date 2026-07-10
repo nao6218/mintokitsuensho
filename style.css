@@ -33,7 +33,7 @@
     height: 70px; 
     background-color: #b0aaa1;
     color: #163c60;
-    text-decoration: none;  /* 拔掉超連結預設的底線 */
+    text-decoration: none;
     border-radius: 8px;
     
     padding: 22px;
@@ -66,7 +66,7 @@
     position: absolute;
     width: 230px;
     height: auto;
-    right: 80px; 
+    right: 60px; 
     bottom: 40px;
 }
 
@@ -106,10 +106,10 @@
 }
 
 .panel-1 {
-    top: 0%;              /* 距離頂端 5% */
-    left: 0%;            /* 距離左邊 10% */
-    width: 27%;           /* 這個分鏡佔了寬度的 40% */
-    height: 100%;          /* 這個分鏡佔了高度 的 45% */
+    top: 0%;
+    left: 0%;
+    width: 27%; 
+    height: 100%;
 }
 
 .panel-2 {
@@ -184,4 +184,51 @@
     height: auto;
     right: 160px; 
     bottom: 40px;
+}
+
+.link {
+    background-color: #b0aaa1;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px 0px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.link-card {
+    width: 28%;             
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.link-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.link-card h3 {
+    font-size: 20px;
+    color: #163c60; 
+    margin: 0;
+}
+
+.link-card p {
+    font-size: 14px;
+    color: #385b7c;
+    margin: 5px 0;
+}
+
+.link-card:hover {
+    transform: translateY(-8px);
 }
