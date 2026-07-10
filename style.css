@@ -10,14 +10,6 @@
             font-family: 'Font', sans-serif;
         }
 
-.youkoso {
-    position: absolute;
-    width: 80px;
-    height: auto;
-    right: 270px; 
-    bottom: 250px;
-}
-
 .menu {
     display: flex;
     justify-content: center;
@@ -88,6 +80,12 @@
     padding-bottom: 40px;
 }
 
+.rule-title {
+    color: #163c60;
+    font-size: 45px;
+    text-align: center;
+}
+
 .character {
     position: relative;
     max-width: 750px;
@@ -103,6 +101,11 @@
 .naoka {
     position: absolute;
     cursor: pointer;
+}
+
+.naoka_1 {
+    width: 800px;
+    height: auto;
 }
 
 .panel-1 {
@@ -131,6 +134,58 @@
     left: 75%;
     width: 25%;
     height: 100%;
+}
+
+.tachie {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 180px; 
+    top: 230px;
+}
+
+.tachie_02 {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 150px; 
+    top: 230px;
+}
+
+.tachie_03 {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 180px; 
+    top: 230px;
+}
+
+.tachie_04 {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 180px; 
+    top: 230px;
+}
+
+.tachie_1 {
+    width: 390px;
+    height: auto;
+}
+
+.tachie_2 {
+    width: 390px;
+    height: auto;
+}
+
+.name {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin-left: 540px;
+    margin-top: 50px;
+    font-size: 45px;
 }
 
 .shoukai {
@@ -232,4 +287,177 @@
 
 .link-card:hover {
     transform: translateY(-8px);
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: #b0aaa1;
+    font-size: 15px;
+    padding: 30px;
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .youkoso {
+        text-align: center;
+        width: 400px;
+        height: auto;
+    }
+
+    .menu-item {
+        font-size: 7px;
+        width: 200px;
+        height: 40px;   
+        padding: 13px;
+    }
+
+    .news {
+        margin: 10px 15px;
+        text-align: left;
+        font-size: 13px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .news-illustration {
+        position: absolute;
+        width: 0px;
+        height: auto;
+        right: 60px; 
+        bottom: 40px;
+    }
+
+    .rule {
+        margin: 10px 15px;
+        text-align: left;
+        font-size: 15px;
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .rule-title {
+        font-size: 0px;
+        text-align: center;
+    }
+
+    .naoka_1 {
+        width: 410px;
+        height: auto;
+    }
+
+    .tachie {
+        left: 80px;
+        top: 180px;
+    }
+
+    .tachie_02 {
+        left: 60px;
+        top: 150px;
+    }
+
+    .tachie_03 {
+        left: 70px;
+        top: 180px;
+    }
+
+    .tachie_04 {
+        left: 80px;
+        top: 150px;
+    }
+
+    .tachie_1 {
+        width: 300px;
+        height: auto;
+    }
+
+    .tachie_2 {
+        width: 320px;
+        height: auto;
+    }
+
+    .name {
+        font-size: 45px;
+        top: 550px;
+        margin-left: 15px;
+    }
+
+    .shoukai {
+        width: 250px;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-size: 18px;
+        padding-left: 30px;
+        top: 550px;
+    }
+
+    .ongen {
+        width: 250px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding-left: 30px;
+        top: 550px;
+    }
+
+    .download {
+        width: 40px;
+        height: auto;
+        right: 200px; 
+        bottom: 90px;
+    }
+
+    .play {
+        width: 140px;
+        height: auto;
+        right: 60px; 
+        bottom: 38px;
+    }
+
+    .play2 {
+        width: 140px;
+        height: auto;
+        right: 100px; 
+        bottom: 38px;
+    }
+
+    .link {
+        padding: 70px 15px;   
+        gap: 50px 15px;       
+        margin: 15px 10px;   
+        border-radius: 15px; 
+    }
+
+    .link-card {
+        width: 46%;          
+        min-width: unset;
+        margin-bottom: 0;    
+    }
+
+    .link-card img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .link-card h3 {
+        font-size: 17px;
+    }
+
+    .link-card p {
+        font-size: 13px;
+    }
+
+    .footer {
+        font-size: 13px;
+        padding: 20px;
+        padding-left: 3px;
+        top: 550px;
+    }
+
 }
