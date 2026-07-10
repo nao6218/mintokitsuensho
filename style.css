@@ -294,6 +294,7 @@
     transform: translateY(-8px);
 }
 
+
 .footer {
     position: relative;
     text-align: center;
@@ -306,15 +307,22 @@
 }
 
 @media screen and (max-width: 768px) {
-    
     .youkoso {
         width: 380px;
         height: auto;
     }
 
+    .menu {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 8px;
+        padding: 30px;
+    }
+    
     .menu-item {
-        font-size: 7px;
-        width: 200px;
+        font-size: 8px;
+        width: 100px;
         height: 40px;   
         padding: 13px;
     }
@@ -355,7 +363,7 @@
     }
 
     .naoka_1 {
-        width: 370px;
+        width: 380px;
         height: auto;
     }
 
@@ -396,7 +404,7 @@
     }
 
     .shoukai {
-        width: 250px;
+        max-width: 250px;
         margin-left: 15px;
         margin-top: 20px;
         font-size: 18px;
@@ -405,7 +413,7 @@
     }
 
     .ongen {
-        width: 250px;
+        max-width: 250px;
         margin-left: 15px;
         margin-top: 20px;
         margin-bottom: 20px;
