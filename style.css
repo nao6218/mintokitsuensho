@@ -377,22 +377,22 @@
     }
 
     .tachie {
-        left: 65px;
-        top: 180px;
-    }
-
-    .tachie_02 {
-        left: 45px;
-        top: 150px;
-    }
-
-    .tachie_03 {
         left: 55px;
         top: 180px;
     }
 
+    .tachie_02 {
+        left: 35px;
+        top: 150px;
+    }
+
+    .tachie_03 {
+        left: 45px;
+        top: 180px;
+    }
+
     .tachie_04 {
-        left: 65px;
+        left: 55px;
         top: 150px;
     }
 
@@ -414,7 +414,7 @@
         font-size: 36px;
         margin: 20px auto; 
         text-align: center;
-        top: 550px !important;
+        top: 570px !important;
     }
 
     .shoukai {
@@ -438,7 +438,7 @@
     .download {
         width: 40px;
         height: auto;
-        right: 150px; 
+        right: 165px; 
         bottom: 80px;
     }
 
