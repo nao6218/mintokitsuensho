@@ -91,6 +91,11 @@
     text-align: center;
 }
 
+.biao {
+    color: #163c60;
+    font-size: 28px;
+}
+
 .character {
     position: relative;
     max-width: 750px;
@@ -358,6 +363,10 @@
         text-align: center;
     }
 
+    .biao {
+        font-size: 23px;
+    }
+
     .naoka {
         max-width: 380px;
     }
@@ -397,29 +406,31 @@
         height: auto;
     }
 
+    .shoukai, .ongen {
+        box-sizing: border-box; 
+    }
+
     .name {
-        font-size: 45px;
-        top: 550px;
-        margin-left: 15px;
+        font-size: 36px;
+        margin: 20px auto; 
+        text-align: center;
+        top: 550px !important;
     }
 
     .shoukai {
-        max-width: 250px;
-        margin-left: 15px;
-        margin-top: 20px;
-        font-size: 18px;
-        padding-left: 30px;
-        top: 550px;
+        top: 550px !important;
+        width: 90%;
+        max-width: 400px;
+        margin: 15px auto;
+        padding: 20px;
     }
 
     .ongen {
-        max-width: 250px;
-        margin-left: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        padding-left: 30px;
-        top: 550px;
+        top: 550px !important;
+        width: 90%;
+        max-width: 400px;
+        margin: 15px auto;
+        padding: 20px;
     }
 
     .download {
@@ -432,15 +443,15 @@
     .play {
         width: 140px;
         height: auto;
-        right: 60px; 
-        bottom: 38px;
+        right: 20px; 
+        bottom: 35px;
     }
 
     .play2 {
         width: 140px;
         height: auto;
-        right: 100px; 
-        bottom: 38px;
+        right: 60px; 
+        bottom: 35px;
     }
 
     .link {
