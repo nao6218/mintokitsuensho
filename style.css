@@ -67,6 +67,11 @@
     bottom: 40px;
 }
 
+.news-title {
+    color: #163c60;
+    font-size: 28px;
+}
+
 .rule {
     position: relative;
     max-width: 900px;
@@ -341,6 +346,10 @@
         padding-bottom: 60px;
     }
 
+    .news-title {
+        font-size: 20px;
+    }
+
     .news-illustration {
         position: absolute;
         width: 0px;
@@ -438,7 +447,7 @@
     .download {
         width: 40px;
         height: auto;
-        right: 165px; 
+        right: 160px; 
         bottom: 80px;
     }
 
