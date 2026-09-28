@@ -151,6 +151,48 @@
     height: 100%;
 }
 
+.panel-5 {
+    top: 0%;
+    left: 0%;
+    width: 27%; 
+    height: 48%;
+}
+
+.panel-6 {
+    top: 0%;
+    left: 27%;
+    width: 24%;
+    height: 48%;
+}
+
+.panel-7 {
+    top: 0%;
+    left: 51%;
+    width: 25%;
+    height: 48%;
+}
+
+.panel-8 {
+    top: 0%;
+    left: 76%;
+    width: 25%;
+    height: 48%;
+}
+
+.panel-9 {
+    top: 52%;
+    left: 0%;
+    width: 25%;
+    height: 48%;
+}
+
+.panel-10 {
+    top: 52%;
+    left: 25%;
+    width: 25%;
+    height: 48%;
+}
+
 .tachie {
     position: absolute;
     width: 390px;
@@ -196,12 +238,18 @@
 .name {
     position: relative;
     text-align: center;
-    width: 400px;
+    width: 500px;
     height: auto;
     margin-left: 540px;
     margin-top: 50px;
     font-size: 45px;
 }
+
+.sub-name {
+    font-size: 20px;
+    color: #b0aaa1;
+}
+
 
 .shoukai {
     position: relative;
@@ -237,6 +285,14 @@
     width: 52px;
     height: auto;
     right: 320px; 
+    bottom: 93px;
+}
+
+.download2 {
+    position: absolute;
+    width: 52px;
+    height: auto;
+    right: 240px; 
     bottom: 93px;
 }
 
