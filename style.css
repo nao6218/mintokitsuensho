@@ -507,6 +507,13 @@
         bottom: 80px;
     }
 
+    .download2 {
+        width: 40px;
+        height: auto;
+        right: 160px; 
+        bottom: 80px;
+    }
+
     .play {
         width: 140px;
         height: auto;
