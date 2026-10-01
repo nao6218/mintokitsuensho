@@ -10,292 +10,616 @@
             font-family: 'Font', sans-serif;
         }
 
-.header {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 100%;
+.youkoso {
+    max-width: 680px;
+    height: auto;
+}
 
+.menu {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.menu-item {
+    display: block;
+    font-size: 20px;
+    width: 200px;
+    height: 70px; 
+    background-color: #b0aaa1;
+    color: #163c60;
+    text-decoration: none;
+    border-radius: 8px;
+    
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.menu-item:hover {
+    background-color: #927248;
+    color: #b0aaa1;
+}
+
+.news {
+    position: relative;
+    max-width: 900px;
+    margin: 40px auto 10px;
+    background-color: #b0a99f;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    box-sizing: border-box;
+
+    padding-left: 110px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.news-illustration {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    right: 60px; 
+    bottom: 40px;
+}
+
+.news-title {
+    color: #163c60;
+    font-size: 28px;
+}
+
+.rule {
+    position: relative;
+    max-width: 900px;
+    margin: 30px auto 10px;
+    background-color: #b0a99f;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+    box-sizing: border-box;
+
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rule-title {
+    color: #163c60;
+    font-size: 45px;
+    text-align: center;
+}
+
+.biao {
+    color: #163c60;
+    font-size: 28px;
+}
+
+.character {
+    position: relative;
+    max-width: 750px;
+    margin: 40px auto 10px;
+    border-radius: 12px;
+    
+    text-align: left;
+    font-size: 30px;
+    box-sizing: border-box;
 
 }
 
+.naoka {
+    position: absolute;
+    cursor: pointer;
+}
 
-.header nav {
+.naoka_1 {
+    width: 800px;
+    height: auto;
+}
 
-    display: inline-flex;
+.panel-1 {
+    top: 0%;
+    left: 0%;
+    width: 27%; 
+    height: 100%;
+}
 
-    align-items: center;
+.panel-2 {
+    top: 0%;
+    left: 27%;
+    width: 24%;
+    height: 100%;
+}
 
-    gap: 15px;
+.panel-3 {
+    top: 0%;
+    left: 51%;
+    width: 24%;
+    height: 100%;
+}
 
-    font-size: 35px;
+.panel-4 {
+    top: 0%;
+    left: 75%;
+    width: 25%;
+    height: 100%;
+}
 
+.panel-5 {
+    top: 0%;
+    left: 0%;
+    width: 27%; 
+    height: 48%;
+}
+
+.panel-6 {
+    top: 0%;
+    left: 27%;
+    width: 24%;
+    height: 48%;
+}
+
+.panel-7 {
+    top: 0%;
+    left: 51%;
+    width: 25%;
+    height: 48%;
+}
+
+.panel-8 {
+    top: 0%;
+    left: 76%;
+    width: 25%;
+    height: 48%;
+}
+
+.panel-9 {
+    top: 52%;
+    left: 0%;
+    width: 25%;
+    height: 48%;
+}
+
+.panel-10 {
+    top: 52%;
+    left: 25%;
+    width: 48%;
+    height: 48%;
+}
+
+.tachie {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 180px; 
+    top: 230px;
+}
+
+.tachie_02 {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 150px; 
+    top: 230px;
+}
+
+.tachie_03 {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 180px; 
+    top: 230px;
+}
+
+.tachie_04 {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    left: 180px; 
+    top: 230px;
+}
+
+.tachie_1 {
+    width: 390px;
+    height: auto;
+}
+
+.tachie_2 {
+    width: 390px;
+    height: auto;
+}
+
+.tachie_3 {
+    width: 390px;
+    height: auto;
+}
+
+.name {
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin-left: 540px;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.sub-name {
+    font-size: 20px;
     color: #b0aaa1;
 }
 
 
-.header a {
-
-    color: inherit;
-
-    text-decoration: none;
-
-    transition: opacity 0.2s;
-}
-
-
-.header a:hover {
-
-    opacity: 0.55;
-}
-
-.about img,
-.profile img,
-.sns img,
-.distribute img,
-.works img {
-
-    display: block;
-
-    width: 100%;
-    height: auto;
-
-}
-
-.about {
-
-    position: absolute;
-
-    left: 150px;
-    top: 120px;
-
-    width: 520px;
-    height: auto;
-}
-
-.about-text {
-    position: absolute;
-
-    left: 50px;
-    top: 65px;
-
-    width: 420px;
-
-    color: #06476a;
-
-    font-size: 18px;
-    line-height: 1.4;
-}
-
-.profile {
-
-    position: absolute;
-
-    left: 680px;
-    top: 130px;
-
+.shoukai {
+    position: relative;
+    background-color:#beb8af;
     width: 400px;
-    height: auto;
+    border-radius: 20px;
+    padding-left: 50px; 
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    margin-left: 530px;
+    line-height: 1.0;
 }
 
-.sns {
-
-    position: absolute;
-
-    left: 150px;
-    top: 590px;
-
-    width: 520px;
-    height: auto;
+.ongen {
+    position: relative;
+    background-color:#beb8af;
+    width: 390px;
+    border-radius: 20px;
+    padding-left: 50px; 
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    margin-left: 530px;
+    margin-top: 40px;
+    line-height: 1.0;
 }
 
-.sns-links {
+.download {
     position: absolute;
+    width: 52px;
+    height: auto;
+    right: 320px; 
+    bottom: 93px;
+}
 
-    left: 60px;
-    right: 60px;
-    bottom: 30px;
+.download2 {
+    position: absolute;
+    width: 52px;
+    height: auto;
+    right: 240px; 
+    bottom: 93px;
+}
 
-    display: flex;
+.download3 {
+    position: absolute;
+    width: 52px;
+    height: auto;
+    right: 240px; 
+    bottom: 93px;
+}
+
+.play {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    right: 110px; 
+    bottom: 40px;
+}
+
+.play2 {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    right: 160px; 
+    bottom: 40px;
+}
+
+.play3 {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    right: 150px; 
+    bottom: 40px;
+}
+
+.play4 {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    right: 150px; 
+    bottom: 40px;
+}
+
+.link {
+    background-color: #b0aaa1;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 90px 0px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.link-card {
+    width: 28%;             
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-
-    gap: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s ease;
 }
 
-.sns-links img {
-    display: block;
-
-    width: 75px;
-    height: auto;
+.link-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 5px;
 }
 
-
-.sns-links a:hover {
-
-    transform: translateY(-4px);
-
+.link-card h3 {
+    font-size: 20px;
+    color: #163c60; 
+    margin: 0;
+    font-weight: 500;
 }
 
-.distribute {
-
-    position: absolute;
-
-    left: 700px;
-    top: 420px;
-
-    width: 190px;
-    height: auto;
-
-    display: block;
-
-    transition:
-        transform 0.25s;
+.link-card p {
+    font-size: 14px;
+    color: #385b7c;
+    margin: 5px 0;
 }
 
-
-.distribute:hover {
-
-    transform:
-        rotate(-2deg)
-        scale(1.05);
+.link-card:hover {
+    transform: translateY(-8px);
 }
 
-.works {
-
-    position: absolute;
-
-    left: 930px;
-    top: 520px;
-
-    width: 200px;
-    height: auto;
-
-    display: block;
-
-    transition:
-        transform 0.25s;
-}
-
-
-.works:hover {
-
-    transform:
-        rotate(2deg)
-        scale(1.05);
-}
 
 .footer {
     position: relative;
-
-    width: 100%;
-
-    margin-top: 780px;
-    padding-bottom: 25px;
-
     text-align: center;
-
+    width: 100%;
+    height: auto;
     color: #b0aaa1;
     font-size: 15px;
+    padding: 30px;
+    padding-top: 70px;
 }
 
 @media screen and (max-width: 768px) {
-
-    .header {
-        left: 0;
-        width: 100%;
+    .youkoso {
+        width: 380px;
+        height: auto;
     }
 
-    .header nav {
-        font-size: 25px;
-        gap: 10px;
+    .menu {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 8px;
+        padding: 15px;
+    }
+    
+    .menu-item {
+        font-size: 8px;
+        width: 100px;
+        height: 40px;   
+        padding: 13px;
     }
 
-    .about {
-
-        left: 20px;
-        top: 100px;
-
-        width: 90%;
-
-    }
-
-    .profile {
-
-        left: 20px;
-        top: 90px;
-
-        width: 90%;
-
-    }
-
-    .about{
-
-        left: 20px;
-        top: 330px;
-
-        width: 90%;
-
-    }
-
-    .about-text {
-
-        left: 20px;
-        top: 40px;
+    .news {
+        margin: 10px 15px;
+        text-align: left;
         font-size: 13px;
-
-        width: calc(100% - 40px);
-
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 60px;
     }
 
-    .sns {
+    .news-title {
+        font-size: 20px;
+    }
 
-        left: 20px;
-        top: 670px;
+    .news-illustration {
+        position: absolute;
+        width: 0px;
+        height: auto;
+        right: 60px; 
+        bottom: 40px;
+    }
 
+    .rule {
+        margin: 10px 15px;
+        text-align: left;
+        font-size: 15px;
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .rule-title {
+        font-size: 0px;
+        text-align: center;
+    }
+
+    .biao {
+        font-size: 23px;
+    }
+
+    .naoka {
+        max-width: 380px;
+    }
+
+    .naoka_1 {
+        width: 380px;
+        height: auto;
+    }
+
+    .tachie {
+        left: 50px;
+        top: 180px;
+    }
+
+    .tachie_02 {
+        left: 35px;
+        top: 150px;
+    }
+
+    .tachie_03 {
+        left: 40px;
+        top: 180px;
+    }
+
+    .tachie_04 {
+        left: 50px;
+        top: 150px;
+    }
+
+    .tachie_1 {
+        width: 300px;
+        height: auto;
+    }
+
+    .tachie_2 {
+        width: 320px;
+        height: auto;
+    }
+
+    .tachie_3 {
+        margin-left: 20px;
+        width: 320px;
+        height: auto;
+    }
+
+    .shoukai, .ongen {
+        box-sizing: border-box; 
+    }
+
+    .name {
+        font-size: 36px;
+        margin: 20px auto; 
+        text-align: center;
+        top: 570px !important;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .sub-name {
+        display: block;
+        margin-top: 4px;
+    }
+
+    .shoukai {
+        font-size: 18px;
+        top: 550px !important;
         width: 90%;
-
+        max-width: 400px;
+        margin: 15px auto;
+        padding: 20px;
     }
 
-    .sns-links {
-
-        left: 20px;
-        right: 20px;
-        bottom: 20px;
-        gap: 20px;
-
+    .ongen {
+        font-size: 18px;
+        top: 550px !important;
+        width: 90%;
+        max-width: 400px;
+        margin: 15px auto;
+        padding: 20px;
     }
 
-    .sns-links img{
-        
-        width: 60px;
-
+    .download {
+        width: 40px;
+        height: auto;
+        right: 160px; 
+        bottom: 80px;
     }
 
-    .distribute {
-
-        left: 20px;
-        top: 790px;
-
-        width: 40%;
-
+    .download2 {
+        width: 40px;
+        height: auto;
+        right: 160px; 
+        bottom: 80px;
     }
 
-    .works {
+    .download3 {
+        width: 40px;
+        height: auto;
+        right: 70px; 
+        bottom: 80px;
+    }
 
-        left: 200px;
-        top: 880px;
+    .play {
+        width: 140px;
+        height: auto;
+        right: 23px; 
+        bottom: 28px;
+    }
 
-        width: 40%;
+    .play2 {
+        width: 140px;
+        height: auto;
+        right: 60px; 
+        bottom: 28px;
+    }
 
+    .play3 {
+        width: 140px;
+        height: auto;
+        right: 40px; 
+        bottom: 28px;
+    }
+
+    .play4 {
+        width: 140px;
+        height: auto;
+        right: 80px; 
+        bottom: 28px;
+    }
+
+    .link {
+        padding: 70px 15px;   
+        gap: 50px 15px;       
+        margin: 15px 10px;   
+        border-radius: 15px; 
+    }
+
+    .link-card {
+        width: 46%;          
+        min-width: unset;
+        margin-bottom: 0;    
+    }
+
+    .link-card img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .link-card h3 {
+        font-size: 17px;
+    }
+
+    .link-card p {
+        font-size: 13px;
     }
 
     .footer {
         font-size: 13px;
-        margin-top: 1080px;
+        margin-top: 500px;
     }
 
 }
